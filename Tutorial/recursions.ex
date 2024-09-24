@@ -6,8 +6,7 @@
 
 defmodule Recursions do
 
-  # In Elixir, we cannont loop with a for or while loop.
-  # We use recursion instead, because all variables are immutable.
+  # In Elixir, we cannot loop with a for or while loop.
   def recursion_stuff do
     sum([1, 2, 3, 4, 5]) |> IO.puts # 15
     loop(0, 5) # 0 1 2 3 4
