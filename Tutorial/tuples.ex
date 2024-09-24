@@ -13,9 +13,9 @@
 # They are not enumerable.
 # Normally used for a small number of values (2-4).
 
-# ***** MODULE TO HOLD FUNCTIONS *****
 defmodule Tuples do
 
+  # ***** TUPLE FUNCTIONS *****
   def tuple_stuff do
     # Tuple
     my_tuple = {:ok, "Hello", 123}
@@ -58,8 +58,9 @@ defmodule Tuples do
     my_tuple6 = Tuple.duplicate(0, 5) # {0, 0, 0, 0, 0}
     IO.puts "Tuple duplicate : #{inspect my_tuple6}"
 
-    # Pattern matching
-    case my_tuple do
+    # Pattern matching : Case statement
+    my_tuple8 = {:ok, "Hello", 123}
+    case my_tuple8 do
       {:ok, message, code} -> IO.puts "Tuple pattern matching : #{message} | #{code}"
       _ -> IO.puts "Tuple pattern matching : no match"
     end

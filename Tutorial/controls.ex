@@ -1,11 +1,10 @@
 # ***** RUN *****
 #   iex
 #   c("control.ex")
-#   Control.compare_stuff
-#   Control.control_stuff
+#   Controls.compare_stuff
+#   Controls.control_stuff
 
-# ***** MODULE TO HOLD FUNCTIONS *****
-defmodule Control do
+defmodule Controls do
 
   # ***** COMPARE VALUES *****
   def compare_stuff do

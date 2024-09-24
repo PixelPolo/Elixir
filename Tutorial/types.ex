@@ -4,7 +4,6 @@
 #   Types.data_stuff
 #   Types.math_stuff
 
-# ***** MODULE TO HOLD FUNCTIONS *****
 defmodule Types do
 
   # ***** DATA TYPES *****

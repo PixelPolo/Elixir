@@ -1,10 +1,9 @@
 # ***** RUN *****
 #   iex
 #   c("string.ex")
-#   String.string_stuff
+#   Strings.string_stuff
 
-# ***** MODULE TO HOLD FUNCTIONS *****
-defmodule String do
+defmodule Strings do
 
   # ***** STRING *****
   def string_stuff do
